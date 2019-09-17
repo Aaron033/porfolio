@@ -4,6 +4,10 @@ html, * ,body{
     box-sizing: border-box; 
 } 
 
+nav {
+    position: fixed; 
+    background: rgba(0, 0, 0, 0.2);
+}
 nav ul { 
 
 background-color: #000;
@@ -25,13 +29,7 @@ nav ul li {
 
  }
 
- .navbar-default{
-    transition:500ms ease;
-    background:pink;
-  }
-  .navbar-default.scrolled{
-    background:#000;
-  }
+
  main{
      z-index: -1;
  position: relative;
