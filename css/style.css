@@ -5,8 +5,6 @@ html, * ,body{
 } 
 
 nav {
-    
-    background-color: azure;
     position: sticky;
     top: 0;
 }
@@ -24,6 +22,7 @@ nav ul li {
  }
  nav ul li a {
      text-decoration: none; 
+     margin: 0 20px; 
  }
  main{
  position: relative;
@@ -31,7 +30,7 @@ nav ul li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-height: 70Vh;
+height: 75Vh;
    
 }
 
