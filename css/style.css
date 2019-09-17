@@ -27,27 +27,27 @@ nav ul li {
  }
  main{
  position: relative;
-    /* background-image: url(../images/46.jpg);*/
-    
+    background-image: url(../images/46.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 70Vh;
+   
 }
 
 .mainMessage {
     position: absolute;
-    top: 50%; left: 50%;
+    top: 50%;
+     left: 50%;
     transform: translate(-50%,-50%);
  
 }
 
-
-
-
-
-
-main img {
+/* main img {
     width: 100%;
     height: auto;
-    z-index: -1;
-}
+
+} */
 article {
     width : 200px;
 }
