@@ -5,8 +5,8 @@ html, * ,body{
 } 
 
 nav {
-    background-color: red; 
-    /* background:rgba(0,0,0,0.2); */
+
+  
     position: sticky;
     top: 0;
 }
