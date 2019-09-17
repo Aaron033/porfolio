@@ -1,31 +1,18 @@
 html, * ,body{
-    margin: 0 ; 
+    /* margin: 0 ; 
     padding: 0; 
-    box-sizing: border-box; 
+    box-sizing: border-box;  */
 } 
 /* ^^^^^^^^^^^^^^^^nav tag code begins  ^^^^^^^^^^^^^^^^^^^^^^^^*/
 nav {
     position: fixed; 
-    background: rgba(0, 0, 0, 0.2) !important;
+    background: rgba(0, 0, 0, 0.2);
     padding: 0px 20px;
 }
-nav ul { 
-display: flex; 
-flex-direction: row; 
-justify-content: flex-end;
-}
 
-nav ul li {
-    list-style: none; 
-   
- }
- nav ul li a {
-     text-decoration: none; 
-     color:#fff; 
 
- }
 nav li a:hover {
-    background: red; 
+    background: red ; 
 }
 
 
