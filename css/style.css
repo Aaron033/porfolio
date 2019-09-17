@@ -5,7 +5,8 @@ html, * ,body{
 } 
 
 nav {
-    background:rgba(0,0,0,0.2);
+    background-color: red; 
+    /* background:rgba(0,0,0,0.2); */
     position: sticky;
     top: 0;
 }
@@ -27,6 +28,7 @@ nav ul li {
      color: #fff;
  }
  main{
+     z-index: -1;
  position: relative;
     background-image: url(../images/computer.jpg);
     background-position: center;
@@ -37,6 +39,7 @@ height: 75Vh;
 }
 
 .mainMessage {
+    color: white;
     position: absolute;
     top: 50%;
      left: 50%;
@@ -50,5 +53,9 @@ height: 75Vh;
 
 } */
 article {
-    width : 200px;
+    color : white; 
+
+width : 200px; 
+margin: 0 auto; 
+    background-color: black;
 }
