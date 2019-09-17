@@ -3,7 +3,7 @@ html, * ,body{
     padding: 0; 
     box-sizing: border-box; 
 } 
-
+/* ^^^^^^^^^^^^^^^^nav tag code begins  ^^^^^^^^^^^^^^^^^^^^^^^^*/
 nav {
     position: fixed; 
     background: rgba(0, 0, 0, 0.2) !important;
@@ -24,8 +24,12 @@ nav ul li {
      color:#fff; 
 
  }
+nav li a:hover {
+    background: red; 
+}
 
 
+/* ^^^^^^^^^^^^^^^^main tag code  begins  ^^^^^^^^^^^^^^^^^^^^^^^^*/
  main{
      z-index: -1;
  position: relative;
@@ -46,7 +50,7 @@ height: 75Vh;
  
 }
 
-
+/* ^^^^^^^^^^^^^^^^article tag code  begins  ^^^^^^^^^^^^^^^^^^^^^^^^*/
 article {
     color : white; 
 width : 200px; 
