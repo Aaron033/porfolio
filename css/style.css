@@ -44,3 +44,7 @@ width : 200px;
 margin: 0 auto; 
     background-color: black;
 }
+
+form {
+    margin: 20px;
+}
