@@ -5,7 +5,7 @@ html, * ,body{
 } 
 /* ^^^^^^^^^^^^^^^^nav tag code begins  ^^^^^^^^^^^^^^^^^^^^^^^^*/
 nav {
-  
+    position: fixed; 
     background: rgba(0, 0, 0, 0.2);
     padding: 0px 20px;
 }
@@ -45,8 +45,3 @@ margin: 0 auto;
     background-color: black;
 }
 
-form {
-    margin: 20px;
-    width: 50%;
-    margin: 0 auto;
-}
