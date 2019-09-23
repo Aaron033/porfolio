@@ -33,7 +33,10 @@ background-size: cover;
       background-color: rgba(0, 0,0, 0.3);
       color: #fff;
       font-size: 3em;
-      text-align: center;
+  margin: 0 auto;
+  text-align: center;
+      width: 60vw;
+      letter-spacing: 2px;
   }
 
   @media screen and (min-width: 998px) {
