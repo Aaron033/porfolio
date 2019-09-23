@@ -12,7 +12,11 @@ body {
   .address p{
     margin:0;
     padding: 20px;
-    
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
   }
   .main-img {
       width:auto;
@@ -24,6 +28,8 @@ background-position: center center;
 background-attachment: fixed;
 background-size: cover; 
   }
+
+  .main
 
   @media screen and (min-width: 998px) {
 
