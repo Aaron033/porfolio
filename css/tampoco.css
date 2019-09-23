@@ -4,6 +4,16 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .address{
+      background-color: #1E1E1E;
+     
+  }
+  .address p{
+    margin:0;
+    padding: 20px;
+    
+  }
   .main-img {
       width:auto;
       height: 75vh;
