@@ -29,7 +29,12 @@ background-attachment: fixed;
 background-size: cover; 
   }
 
-  .main
+  .main-msg{
+      background-color: rgba(0, 0,0, 0.3);
+      color: #fff;
+      font-size: 3em;
+      text-align: center;
+  }
 
   @media screen and (min-width: 998px) {
 
