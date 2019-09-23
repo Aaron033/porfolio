@@ -8,7 +8,7 @@ body {
       width:auto;
       height: 75vh;
       z-index: -1;
-      background-image: url(../images/thomas-q-f4RpK8SayN8-unsplash.jpg);
+      background-image: url(../images/main-foto.jpg);
 background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
@@ -19,12 +19,14 @@ background-size: cover;
 
   }
   .topnav {
+      
     overflow: hidden;
-    background-color: #333;
+    
     z-index: 1
   }
   
   .topnav a {
+    margin-top: 20px !important; 
     float: left;
     display: block;
     color: #f2f2f2;
@@ -49,6 +51,10 @@ background-size: cover;
   }
   
   @media screen and (max-width: 600px) {
+    .topnav a {
+
+        margin-top: 0 !important;
+    }
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
