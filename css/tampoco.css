@@ -104,4 +104,5 @@ background-size: cover;
   .main-info{
     background-color: #fff2c7;
     height: 85vh;
+    position: relative;
   }
