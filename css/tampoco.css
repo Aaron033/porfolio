@@ -99,3 +99,9 @@ background-size: cover;
       text-align: left;
     }
   }
+
+  /* section code  */
+  .main-info{
+    background-color: #fff2c7;
+    height: 85vh;
+  }
