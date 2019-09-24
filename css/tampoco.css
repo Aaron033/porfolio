@@ -8,6 +8,7 @@ body {
 
   .address{
       background-color: #1E1E1E;
+      
      
   }
   .address p{
@@ -102,6 +103,18 @@ background-size: cover;
       text-align: left;
     }
   }
+  /* #navbar {
+    overflow: hidden;
+   
+  } */
+  /* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .main-info {
+    padding-top: 60px;
+  } */
 
   /* section code ########################### */
   .main-info{
