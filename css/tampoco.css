@@ -103,18 +103,18 @@ background-size: cover;
       text-align: left;
     }
   }
-  /* #navbar {
+  #navbar {
     overflow: hidden;
    
-  } */
-  /* .sticky {
+  } 
+   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
   }
   .sticky + .main-info {
     padding-top: 60px;
-  } */
+  }
 
   /* section code ########################### */
   .main-info{

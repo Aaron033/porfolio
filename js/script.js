@@ -13,11 +13,11 @@ function myFunction() {
   window.onscroll = function() {myFunctiondos()};
 
 var navbar = document.querySelector("#navbar");
-var sticky = navbar.offsetTop;
+var Home = navbar.offsetTop;
 
 
 function myFunctiondos() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset >= Home) {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
