@@ -28,3 +28,15 @@ function myFunction() {
 //   }
 // }
 //   })
+
+
+var height = $('#header').height(); 
+
+$(window).scroll(function(){
+if($(this).scrollTop() > height){
+  $('.navbar').addClass('Fixed'); 
+
+}else{
+  $('.navbar').removeClass('fixed');
+}
+}); 
