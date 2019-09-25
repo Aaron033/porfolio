@@ -16,9 +16,9 @@ var height = $('.address').height();
 
 $(window).scroll(function(){
 if($(this).scrollTop() > height){
-  $('.navbar').addClass('Fixed'); 
+  $('.nava').addClass('fixed'); 
 
 }else{
-  $('.navbar').removeClass('fixed');
+  $('.nava').removeClass('fixed');
 }
 }); 
