@@ -9,28 +9,10 @@ function myFunction() {
   }
 
 
-//   document.addEventListener('DOMContentLoaded', function() {
-//     // When the event DOMContentLoaded occurs, it is safe to access the DOM
-  
-//     // When the user scrolls the page, execute myFunction 
-//     window.addEventListener('scroll', myFunctiondos);
-//   // window.onscroll = function() {myFunctiondos()};
-
-// var navbar = document.getElementById("#navbar");
-// var sticky = navbar.offsetTop;
 
 
-// function myFunctiondos() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.classList.add("sticky");
-//   } else {
-//     navbar.classList.remove("sticky");
-//   }
-// }
-//   })
 
-
-var height = $('#header').height(); 
+var height = $('.address').height(); 
 
 $(window).scroll(function(){
 if($(this).scrollTop() > height){
