@@ -11,14 +11,3 @@ function myFunction() {
 
 
 
-
-var height = $('.address').height(); 
-
-$(window).scroll(function(){
-if($(this).scrollTop() > height){
-  $('.nava').addClass('fixed'); 
-
-}else{
-  $('.nava').removeClass('fixed');
-}
-}); 
