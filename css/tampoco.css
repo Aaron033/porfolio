@@ -20,6 +20,9 @@ body {
     font-weight: bold;
 
   }
+  .nava{
+    background-color: #1E1E1E;
+  }
 
     /* main-img code ########################### */
   .main-img {
@@ -35,6 +38,7 @@ background-size: cover;
   }
 
   .main-msg{
+
     position: absolute;
     z-index: 2;
       background-color: rgba(0, 0,0, 0.3);
