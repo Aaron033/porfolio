@@ -12,7 +12,7 @@ function myFunction() {
 
   $(function(){
   
-    createSticky($("#header"));
+    createSticky($("#myTopnav"));
   
   });
   
