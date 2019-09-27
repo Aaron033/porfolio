@@ -8,7 +8,11 @@ function myFunction() {
     }
   }
 
-  
+  function myFunctioncheck() {
+    var w = window.innerWidth;
+
+    document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+  }
 
   $(function(){
   
