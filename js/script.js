@@ -8,17 +8,17 @@ function myFunction() {
     }
   }
 
-
+  
 
   $(function(){
   
     createSticky($("#myTopnav"));
   
   });
-  
+  console.log(window.innerWidth)
   function createSticky(sticky) {
     
-    if (typeof sticky !== "undefined") {
+    if ((typeof sticky !== "undefined") && (window.innerWidth > 601)) {
   
       var	pos = sticky.offset().top,
           win = $(window);
@@ -28,3 +28,4 @@ function myFunction() {
       });			
     }
   }
+  

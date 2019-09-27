@@ -58,7 +58,7 @@ background-size: cover;
       
     overflow: hidden;
     
-    z-index: 40
+   
   }
   
   .topnav a {
@@ -99,6 +99,7 @@ background-size: cover;
   }
   
   @media screen and (max-width: 600px) {
+    
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
