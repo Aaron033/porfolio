@@ -5,87 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/music.css">
 </head>
 <body>
-    <header>
-        <h1>LOGO</h1>
-        <p>Description</p>
-    </header>
-    <nav id="sticky_nav">
-        <div class="container_left">
-            <a class="home" href="https://codepen.io/uzcho_/" target="blank_">
-                <i class="fa fa-home"></i>
-            </a>
-            <button id="btnMenu" onclick="openMenu()">
-                <i class="fa fa-bars"></i>
-                <i class="fa fa-close"></i>
-            </button>
-        </div>
-        <div class="container_menu" id="thisMenu">
-            <div class="container_list">
-                <button class="btnList" onclick="openList('1')">
-                    <span class="drop">Dropdown 1</span>
-                    <span class="acc">Accordion 1</span>
-                </button>
-                <div class="content_list left" id="thisList_1">
-                    <p>1<br>Lorem ipsum<br>Lorem ipsum<br>Lorem ipsum</p>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="https://bulma.io">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                  </a>
+              
+                  <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
                 </div>
-            </div>
-            <div class="container_list">
-                <button class="btnList" onclick="openList('2')">
-                    <span class="drop">Dropdown 2</span>
-                    <span class="acc">Accordion 2</span>
-                </button>
-                <div class="content_list left" id="thisList_2">
-                    <p>2<br>Lorem ipsum<br>Lorem ipsum<br>Lorem ipsum</p>
+              
+                <div id="navbarBasicExample" class="navbar-menu">
+                  <div class="navbar-start">
+                    <a class="navbar-item">
+                      Home
+                    </a>
+              
+                    <a class="navbar-item">
+                      Documentation
+                    </a>
+              
+                    <div class="navbar-item has-dropdown is-hoverable">
+                      <a class="navbar-link">
+                        More
+                      </a>
+              
+                      <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                          About
+                        </a>
+                        <a class="navbar-item">
+                          Jobs
+                        </a>
+                        <a class="navbar-item">
+                          Contact
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                          Report an issue
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="navbar-end">
+                    <div class="navbar-item">
+                      <div class="buttons">
+                        <a class="button is-primary">
+                          <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                          Log in
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            <div class="container_list">
-                <button class="btnList" onclick="openList('3')">
-                    <span class="drop">Dropdown 3</span>
-                    <span class="acc">Accordion 3</span>
-                </button>
-                <div class="content_list center" id="thisList_3">
-                    <p>3<br>Lorem ipsum<br>Lorem ipsum<br>Lorem ipsum</p>
-                </div>
-            </div>
-            <div class="container_list">
-                <button class="btnList" onclick="openList('4')">
-                    <span class="drop">Dropdown 4</span>
-                    <span class="acc">Accordion 4</span>
-                </button>
-                <div class="content_list right" id="thisList_4">
-                    <p>4<br>Lorem ipsum<br>Lorem ipsum<br>Lorem ipsum</p>
-                </div>
-            </div>
-            <div class="container_list">
-                <button class="btnList" onclick="openList('5')">
-                    <span class="drop">Dropdown 5</span>
-                    <span class="acc">Accordion 5</span>
-                </button>
-                <div class="content_list right" id="thisList_5">
-                    <p>5<br>Lorem ipsum<br>Lorem ipsum<br>Lorem ipsum</p>
-                </div>
-            </div>
-        </div>
-        <div class="container_right">
-            <div class="content_search" id="thisSearch">
-                <form><input type="text" placeholder="Search..."></form>
-            </div>
-            <button id="btnSearch" onclick="openSearch()">
-                <i class="fa fa-search"></i>
-                <i class="fa fa-close"></i>
-            </button>
-        </div>
-    </nav>
-    <div class="title">
-        <h2>Responsive Slide Down A Sticky Navbar On Scroll</h2>
-    </div>
-    <div class="blank"></div>
-    
-    <!-- This is not part of Pen -->
-    <script src="../js/music.js"></script>
-    <a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank" style="color:#fff"></a>
+              </nav>
+              
 </body>
 </html>
