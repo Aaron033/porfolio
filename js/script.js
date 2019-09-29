@@ -14,6 +14,9 @@ function myFunction() {
     document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
   }
 
+
+
+  
   $(function(){
   
     createSticky($("#myTopnav"));
