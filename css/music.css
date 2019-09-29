@@ -11,3 +11,29 @@
 @media screen and (max-width: 600px) {
 
 }
+
+/* footer code  */
+.columna {
+	background-color: brown;
+	display: flex;
+	flex-direction: row;
+	
+}
+.search-footer {
+	
+
+}
+.newsletterPro {
+
+}
+@media screen and (max-width: 768px) {
+	.columna {
+
+		display: flex;
+		flex-direction: column;
+		
+	}
+}
+.legal {
+	font-size: 9px;
+}
