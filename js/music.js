@@ -24,16 +24,20 @@ document.addEventListener('DOMContentLoaded', () => {
  
  });
 
- bulmaCarousel.attach('#carousel-demo', {
-   slidesToScroll: 1,
-   slidesToShow: 4
-});
-
-// Initialize all elements with carousel class.
-const carousels = bulmaCarousel.attach('.carousel', options);
-
-// To access to bulmaCarousel instance of an element
-const element = document.querySelector('#my-element');
-if (element && element.bulmaCarousel) {
-	// bulmaCarousel instance is available as element.bulmaCarousel
-}
+ var slideIndex = 1;
+ showDivs(slideIndex);
+ 
+ function plusDivs(n) {
+   showDivs(slideIndex += n);
+ }
+ 
+ function showDivs(n) {
+   var i;
+   var x = document.getElementsByClassName("mySlides");
+   if (n > x.length) {slideIndex = 1}
+   if (n < 1) {slideIndex = x.length}
+   for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+   }
+   x[slideIndex-1].style.display = "block";  
+ }
