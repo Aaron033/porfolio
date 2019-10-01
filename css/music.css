@@ -29,6 +29,7 @@ background: #3333 ;
 
 .w3-display-container{
 	width: 400px; 
+	margin: 20px;
 }
 .w3-content img {
 	width: 400px; 
@@ -46,6 +47,10 @@ background: #3333 ;
 
 .sales img {
 height: 200px;
+}
+.sales div{
+	background: #F6F4F0;
+	margin:5px;
 }
 .search-footer {
 	
