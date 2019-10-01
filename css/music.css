@@ -43,6 +43,10 @@ background: #3333 ;
 	flex-direction: row;
 	
 }
+
+.sales img {
+height: 200px;
+}
 .search-footer {
 	
 
