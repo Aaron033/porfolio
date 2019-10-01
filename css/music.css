@@ -7,7 +7,14 @@
 /* 
 navbar code  */
 
+.buttons .sign{
+	background: #B31F18; 
+}
 
+.buttons a:nth-of-type(even) {
+background: #3333 ;
+
+}
 .searchBox {
 	background-color: brown;
 }
@@ -16,6 +23,15 @@ navbar code  */
 
 }
 
+
+
+/* main code  */
+
+
+.w3-content img {
+	width: 200px; 
+	height: 200px;
+}
 .mySlides {display:none;}
 
 /* footer code  */
