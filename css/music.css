@@ -27,10 +27,12 @@ background: #3333 ;
 
 /* main code  */
 
-
+.w3-display-container{
+	width: 400px; 
+}
 .w3-content img {
-	width: 200px; 
-	height: 200px;
+	width: 400px; 
+	height: 350px;
 }
 .mySlides {display:none;}
 
@@ -53,7 +55,23 @@ background: #3333 ;
 
 		display: flex;
 		flex-direction: column;
+
 		
+	}
+	.columns {
+		display: flexbox; 
+		flex-direction: column;
+		align-items: center !important;
+		align-content: center !important;
+		justify-content: center !important;
+justify-items: center !important;
+
+	}
+	.column{
+		align-items: center !important;
+		align-content: center !important;
+		justify-content: center !important;
+justify-items: center !important;
 	}
 }
 .legal {
