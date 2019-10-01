@@ -44,29 +44,28 @@ background: #3333 ;
 	flex-direction: row;
 	
 }
-
+.sales .column {
+ display: flex;
+ flex-direction: row;
+}
 .sales img {
 height: 200px;
 }
-.sales div{
+.sales .column{
+	
 	background: #F6F4F0;
 	margin:5px;
 }
-.search-footer {
-	
 
-}
-.newsletterPro {
 
-}
+
 @media screen and (max-width: 768px) {
 	.columna {
 
 		display: flex;
 		flex-direction: column;
-
-		
 	}
+	
 	
 	.column{
 text-align: center;
