@@ -117,11 +117,24 @@ footer {
 	border: none;
 	cursor: pointer;
   }
-  
+  .columna button {
+	  background-color: #561414;
+	  color: #F6F4F0;
+  }
   .newsletterPro {
 	  text-align: center;
 color: #FFFF;
-font-weight: bold;
+
+  }
+  .newsletterPro p:nth-of-type(odd){
+	  font-weight: bold; 
+
+	font-size: 12px; 
+	
+}
+  .newsletterPro p:nth-of-type(even){
+	  font-size: 12px; 
+
   }
 
 @media screen and (max-width: 768px) {
