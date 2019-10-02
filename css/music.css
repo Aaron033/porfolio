@@ -65,7 +65,27 @@ height: 200px;
 	font-size: 10px;
 	margin-left: 10px;
 }
+.sales h6 {
+	margin-left: 10px;
+}
 
+@media (min-width: 768px) and (max-width: 1136px) {
+	.sales .column {
+justify-content: space-between !important;
+	}
+	.sales img{
+		height: 150px;
+	}
+	.sales .column div	 {
+		width: 146px; 
+		overflow: scroll;
+	}
+
+	.sales .column p{
+		width: 146px; 
+		overflow: auto;
+	}	
+  }
 
 
 @media screen and (max-width: 768px) {
