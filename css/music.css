@@ -118,6 +118,11 @@ footer {
 	cursor: pointer;
   }
   
+  .newsletterPro {
+	  text-align: center;
+color: #FFFF;
+font-weight: bold;
+  }
 
 @media screen and (max-width: 768px) {
 	.columna {
