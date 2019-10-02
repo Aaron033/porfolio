@@ -136,6 +136,15 @@ color: #FFFF;
 	  font-size: 12px; 
 
   }
+  footer .columns h4{
+	  font-size: 13px;
+
+font-weight: bold;
+text-transform: uppercase;
+}
+  footer .columns a {
+	  font-size: 11px;
+  }
 
 @media screen and (max-width: 768px) {
 	.columna {
@@ -151,4 +160,5 @@ text-align: center;
 }
 .legal {
 	font-size: 9px;
+	text-align: center;
 }
