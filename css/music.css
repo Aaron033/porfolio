@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+main {
+	width: 100vw;
+}
+}
 /* 
 navbar code  */
 
@@ -19,9 +24,7 @@ background: #3333 ;
 	background-color: brown;
 }
 
-@media screen and (max-width: 600px) {
 
-}
 
 
 
@@ -42,13 +45,7 @@ main{
 }
 .mySlides {display:none;}
 
-/* footer code  */
-.columna {
-	background-color: brown;
-	display: flex;
-	flex-direction: row;
-	
-}
+
 .sales .column {
  display: flex;
  flex-direction: row;
@@ -87,6 +84,20 @@ justify-content: space-between !important;
 	}	
   }
 
+/* footer code  */
+
+footer {
+	margin-top: 20px;
+}
+
+/* footer code  */
+.columna {
+	background-color: brown;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
 
 @media screen and (max-width: 768px) {
 	.columna {
