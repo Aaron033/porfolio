@@ -97,8 +97,9 @@ justify-content: space-between !important;
   tr:nth-child(even){background-color: #f2f2f2}
   
   th {
-	background-color: #4CAF50;
-	color: white;
+	background-color: brown;
+	  color: #FFF;
+	text-align: center;
   }
 
 /* footer code  */
