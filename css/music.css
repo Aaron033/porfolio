@@ -39,6 +39,10 @@ background: #3333 ;
 .search-bar-div{
 margin-top:12px;
 }
+.search-bar-div button {
+	cursor: pointer;
+	padding: 2px 10px;
+}
 
 
 
