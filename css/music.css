@@ -28,7 +28,11 @@ background: #3333 ;
 	justify-content: center;
 	background-color: brown;
 }
-.shop-tile{
+.shop-tile {
+	margin: 0 10px; 
+}
+.shop-tile h4{
+	color: #fff;
 	
 }
 
