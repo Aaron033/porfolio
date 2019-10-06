@@ -20,13 +20,17 @@ navbar code  */
 background: #3333 ;
 
 }
+
+/* searchbox code     */
 .searchBox {
 	display: flex; 
 	flex-direction: row;
 	justify-content: center;
 	background-color: brown;
 }
-
+.shop-tile{
+	
+}
 
 
 
