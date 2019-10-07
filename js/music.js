@@ -42,11 +42,30 @@ document.addEventListener('DOMContentLoaded', () => {
    x[slideIndex-1].style.display = "block";  
  }
 
- // Initialize all elements with carousel class.
-const carousels = bulmaCarousel.attach('.carousel', options);
+ 
+ var slideIndexx = 1;
+showSlides(slideIndexx);
 
-// To access to bulmaCarousel instance of an element
-const element = document.querySelector('#my-element');
-if (element && element.bulmaCarousel) {
-	// bulmaCarousel instance is available as element.bulmaCarousel
+function plusSlides(n) {
+  showSlides(slideIndexx += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndexx = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndexx = 1}    
+  if (n < 1) {slideIndexx = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndexx-1].style.display = "block";  
+  dots[slideIndexx-1].className += " active";
 }
