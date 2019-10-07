@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
    x[slideIndex-1].style.display = "block";  
  }
 
- 
+ //other code
  var slideIndexx = 1;
 showSlides(slideIndexx);
 
