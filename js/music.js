@@ -43,4 +43,20 @@ document.addEventListener('DOMContentLoaded', () => {
  }
 
  //other code
- 
+ var slideIndexx = 1;
+    showDivss(slideIndexx);
+    
+    function plusDivss(n) {
+      showDivss(slideIndexx += n);
+    }
+    
+    function showDivss(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlidess");
+      if (n > x.length) {slideIndexx = 1}
+      if (n < 1) {slideIndexx = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndexx-1].style.display = "block";  
+    }
