@@ -132,40 +132,16 @@
         <div class="column">
 
 
-            <div class="slideshow-container">
 
-                <div class="mySlidess fade">
-                  <div class="numbertext">1 / 3</div>
-                  <img src="../images/AdStores.jpg" style="width:100%" >
-                  <div class="text">Caption Text</div>
-                </div>
-                
-                <div class="mySlidess fade">
-                  <div class="numbertext">2 / 3</div>
-                  <img src="../images/AdStores.jpg" >
-                  <div class="text">Caption Two</div>
-                </div>
-                
-                <div class="mySlidess fade">
-                  <div class="numbertext">3 / 3</div>
-                  <img src="../images/drum.jpg" >
-                  <div class="text">Caption Three</div>
-                </div>
-                
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                
-                </div>
-                <br>
-                
-                <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
-
-
-
+            <div class="w3-content w3-display-container">
+                <img class="mySlidess"  src="../images/VacavilleTown.jpg"  style="width:100%">
+                <img class="mySlidess"  src="../images/latin_night.jpg" style="width:100%">
+                <img class="mySlidess"  src="../images/VacavilleTown.jpg"  style="width:100%">
+                <img class="mySlidess"  src="../images/latin_night.jpg" style="width:100%">
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivss(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivss(1)">&#10095;</button>
+              </div>
 
 
 
@@ -312,7 +288,25 @@
               </div>
 </footer>
 
-
+<script>
+    var slideIndexx = 1;
+    showDivss(slideIndexx);
+    
+    function plusDivss(n) {
+      showDivss(slideIndexx += n);
+    }
+    
+    function showDivss(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlidess");
+      if (n > x.length) {slideIndexx = 1}
+      if (n < 1) {slideIndexx = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndexx-1].style.display = "block";  
+    }
+    </script>
 <script src ="../js/music.js"></script>
 </body>
 </html>
