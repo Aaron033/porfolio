@@ -60,3 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       x[slideIndexx-1].style.display = "block";  
     }
+
+
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    
