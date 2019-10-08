@@ -43,29 +43,4 @@ document.addEventListener('DOMContentLoaded', () => {
  }
 
  //other code
- var slideIndexx = 1;
-showSlides(slideIndexx);
-
-function plusSlides(n) {
-  showSlides(slideIndexx += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndexx = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndexx = 1}    
-  if (n < 1) {slideIndexx = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndexx-1].style.display = "block";  
-  dots[slideIndexx-1].className += " active";
-}
+ 
