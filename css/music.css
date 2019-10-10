@@ -165,6 +165,13 @@ justify-content: space-between !important;
 
 /* footer code  */
 
+
+footer .column:first-of-type {
+	margin-left: 35px;
+	justify-content: center;
+}
+
+
 footer {
 	margin-top: 20px;
 }
