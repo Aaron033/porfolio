@@ -62,8 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
+   
     
     
