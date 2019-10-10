@@ -17,10 +17,12 @@
 }
 
 .dropbtn {
-	background-color: #B31F18;
+	background-color: #561414;
 	color: white;
 	padding: 12px;
 	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
 	border: none;
 	margin: 5px 5px;
   }
@@ -32,7 +34,7 @@
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f1f1f1;
+	background-color: #A42A2A;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
@@ -44,8 +46,14 @@
 	text-decoration: none;
 	display: block;
   }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a {
+	  font-weight: bold;
+	  color: #fff;
+	}
+  .dropdown-content a:hover {
+	  color: #000;
+	  background-color: #ddd;
+	}
   
   .dropdown:hover .dropdown-content {display: block;}
   
