@@ -120,7 +120,7 @@ main .slides1 img {
 	margin: 20px;
 }
 .w3-content img {
-	width: 400px; 
+	max-width: 400px; 
 	height: 350px;
 }
 .mySlides {display:none;}
