@@ -115,11 +115,12 @@ main .slides1 img {
 	
 }
 
-.w3-display-container{
+.w3-display-container, .w3-content{
 	max-width: 400px; 
 	margin: 20px;
 }
-.w3-content img {
+.w3-content {
+	
 	max-width: 400px; 
 	height: 350px;
 }
