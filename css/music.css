@@ -11,6 +11,8 @@
 	text-transform: uppercase; 
 	text-align: center;
 }
+
+  
 /*  carousel */
 .mySlidess {display:none;}
 
@@ -109,8 +111,12 @@ main{
 
 }
 
+main .slides1 img {
+	
+}
+
 .w3-display-container{
-	width: 400px; 
+	max-width: 400px; 
 	margin: 20px;
 }
 .w3-content img {
