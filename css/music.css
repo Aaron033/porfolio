@@ -117,13 +117,13 @@ main{
 	max-width: 400px !important; 
 	margin: 20px;
 }
-.w3-content {
+.w3-content, .mySlides {
 	min-width: 330px; 
 	max-width: 400px; 
 	height: 350px;
 }
 .w3-display-container{
-	
+
 }
 .mySlides {display:none;}
 
