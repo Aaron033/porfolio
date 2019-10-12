@@ -112,11 +112,7 @@ main{
 }
 
 main .columns {
-	display: flex; 
-
-
-	
-	justify-content:center;  
+	margin: 0 auto;
 }
 
 main .column {
