@@ -114,13 +114,16 @@ main{
 
 
 .w3-display-container, .w3-content img{
-	max-width: 400px; 
+	max-width: 400px !important; 
 	margin: 20px;
 }
 .w3-content {
 	min-width: 330px; 
 	max-width: 400px; 
 	height: 350px;
+}
+.w3-display-container{
+	
 }
 .mySlides {display:none;}
 
