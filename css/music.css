@@ -111,7 +111,13 @@ main{
 
 }
 
+main .columns {
+	display: flex; 
 
+
+	
+	justify-content:center;  
+}
 
 main .column {
 	max-width: 400px !important; 
@@ -122,9 +128,7 @@ main .column {
 	max-width: 400px; 
 	height: 350px;
 }
-.w3-display-container{
 
-}
 .mySlides {display:none;}
 
 
