@@ -14,7 +14,12 @@
 
   
 
+.navbar-item .til{
+	color: #561414; 
+	font-weight: bold;
+	font-size: 18px; 
 
+}
 .dropbtn {
 	background-color: #561414;
 	color: white;
