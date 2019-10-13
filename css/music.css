@@ -177,6 +177,10 @@ justify-content: space-between !important;
 	}	
   }
 /* tablecode  */
+.table-title th {
+color: #fff; 
+}
+
   table {
 	border-collapse: collapse;
 	width: 100%;
