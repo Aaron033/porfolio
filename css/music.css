@@ -198,6 +198,15 @@ color: #fff;
 	  color: #FFF;
 	text-align: center;
   }
+
+  @media (min-width: 769px) and (max-width: 1064px) {
+
+.sub .column:nth-of-type(odd){
+font-size: 12px;
+}
+  }
+
+
 /* sub menu code  */
 .sub  h3{
 color: #B31F18;
