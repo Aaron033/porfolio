@@ -118,23 +118,6 @@ main{
 
 
 
-/* @media (min-width: 636px) and (max-width: 765px) { 
-	main .columns {
-	margin-left: 70px; 
-	}
-}
-
-@media (min-width: 636px) and (max-width: 765px) { 
-	main .columns {
-	margin-left: 70px; 
-	}
-}
-@media (min-width: 1560px) and (max-width: 3000px) { 
-	main .columns {
-	margin-left: 110px; 
-	}
-} */
-
 main .column {
 	max-width: 400px; 
 	margin: 20px;
