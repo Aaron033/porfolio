@@ -198,9 +198,14 @@ color: #fff;
 	  color: #FFF;
 	text-align: center;
   }
-
+.sub h3{
+	text-align: center;
+}
   @media (min-width: 769px) and (max-width: 1064px) {
+	.sub h3 {
+font-size: 20px;
 
+	}
 .sub .column:nth-of-type(odd){
 font-size: 12px;
 }
