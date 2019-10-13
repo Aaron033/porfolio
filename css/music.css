@@ -256,6 +256,10 @@ color: #FFFF;
 	  font-size: 12px; 
 
   }
+  footer .columns  .column{
+	  text-align: center;
+	  justify-content: center !important;
+  }
   footer .columns h4{
 	  font-size: 13px;
 
