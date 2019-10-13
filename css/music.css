@@ -183,12 +183,15 @@ justify-content: space-between !important;
 	  color: #FFF;
 	text-align: center;
   }
+/* sub menu code  */
+.sub  h3{
+color: #B31F18;
+text-transform: uppercase;
+font-weight: bold;
+}
+
 
 /* footer code  */
-
-
-
-
 footer {
 	margin-top: 20px;
 }
