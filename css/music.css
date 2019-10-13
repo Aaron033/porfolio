@@ -13,15 +13,7 @@
 }
 
   
-/*  carousel */
-.mySlidess {display:none;}
 
-
-
-
-.slides2 img, .slides1 img {
-	height: auto;
-}
 
 .dropbtn {
 	background-color: #561414;
@@ -115,7 +107,12 @@ main{
 }
 
 
+/*  carousel slideshow */
+.mySlidess {display:none;}
 
+.slides2 img, .slides1 img {
+	height: auto;
+}
 
 
 main .column {
