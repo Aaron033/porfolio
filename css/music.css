@@ -313,3 +313,6 @@ text-align: center;
 }
 
 /* mobile code  */
+@media (min-width: 319px) and (max-width: 420px) {
+
+  }
